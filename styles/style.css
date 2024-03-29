@@ -8,53 +8,53 @@
     font-size: 18px;
 }
 
-.header_menu {
+.header__menu {
     align-self: center;
     justify-self: end;
     padding-top: 3px;
 }
 
-.header_links-list {
+.header__links-list {
     display: flex;
     column-gap: 33px;
 }
 
-.header_links-list-item {
+.header__links-list-item {
     list-style-type: circle;
 }
 
-.header_links-list-item_no-bullit,
-.footer_links-list {
+.header__links-list-item_no-bullit,
+.footer__links-list {
     list-style-type: none;
 }
 
-.header_link_active,
-.footer_menu-link_active {
+.header__link_active,
+.footer__menu-link_active {
     text-decoration: none;
 }
 
-.header_link,
-.footer_link,
-.footer_menu-link {
+.header__link,
+.footer__link,
+.footer__menu-link {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
 
-.header_logo {
+.header__logo {
     justify-self: center;
 }
 
-.header_logo-link {
+.header__logo-link {
     display: block;
     width: 148px;
     height: 105px;
 }
 
-.header_logo-image {
+.header__logo-image {
     height: 100%;
 }
 
-.header_address {
+.header__address {
     justify-self: end;
     align-self: center;
     padding: 3px 62px 0 0;
@@ -86,7 +86,7 @@
     z-index: 1;
 }
 
-.cover_title {
+.cover__title {
     width: 100%;
     font-size: 100px;
     text-transform: uppercase;
@@ -124,7 +124,7 @@
     letter-spacing: 0;
 }
 
-.cover_description {
+.cover__description {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -134,7 +134,7 @@
     z-index: 2;
 }
 
-.cover_description-text {
+.cover__description-text {
     font-weight: normal;
     font-size: 22px;
     word-spacing: 0.85em;
@@ -157,25 +157,22 @@
     padding: 0 24px;
 }
 
-.lots_heading {
+.lots__heading {
     text-transform: uppercase;
     font-size: 40px;
     padding-left: 40px;
 }
 
-.lots_card-list {
+.lots__card-list {
     display: flex;
     column-gap: 25px;
     padding: 27px 0 28px 0;
     flex-wrap: wrap;
 }
 
-.lots_card-list-item {
+.lots__card-list-item {
     list-style-type: none;
-    overflow-wrap: break-word;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    overflow-wrap: break-word; 
     position: relative;
     z-index: 0;
 }
@@ -194,6 +191,9 @@
     width: 334px;
     padding: 51px 40px 48px 40px;
     justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -209,7 +209,7 @@
     background-image: url("../images/card-lot-03.jpg");
 }
 
-.card_title {
+.card__title {
     text-transform: uppercase;
     font-size: 22px;
     text-decoration: underline;
@@ -218,7 +218,7 @@
     z-index: 2;
 }
 
-.card_text {
+.card__text {
     text-decoration: none;
     font-size: 20px;
     line-height: 1.2em;
@@ -226,7 +226,7 @@
     z-index: 2;
 }
 
-.lots_look-more-link {
+.lots__look-more-link {
     display: block;
     text-transform: lowercase;
     font-size: 20px;
@@ -242,7 +242,7 @@
     column-gap: 25px;
 }
 
-.about_logo {
+.about__logo {
     display: flex;
     border-radius: 50%;
     background-color: #000;
@@ -253,28 +253,28 @@
     margin-top: 37px;
 }
 
-.about_logo-image {
+.about__logo-image {
     width: 148px;
     align-self: center;
 }
 
-.about_title {
+.about__title {
     text-transform: uppercase;
-    font-size: 27px;
+    font-size: 40px;
     padding: 137px 0 100px 0;
     word-spacing: -0.1em;
 }
 
-.about_text {
+.about__text {
     font-size: 20px;
     line-height: 1.19em;
 }
 
-.about_text_paragraph {
+.about__text_paragraph {
     padding-bottom: 27px;
 }
 
-.about_text > :last-child {
+.about__text > :last-child {
     padding-bottom: 0;
 }
 
@@ -287,20 +287,20 @@
     font-size: 18px;
 }
 
-.footer_menu {
+.footer__menu {
     text-align: center;
 }
 
-.footer_social-list {
+.footer__social-list {
     list-style-type: none;
     display: flex;
     justify-content: end;
 }
 
-.footer_social-list-item {
+.footer__social-list-item {
     padding-left: 48px;
 }
 
-.footer_social-icon {
+.footer__social-icon {
     width: 48px;
 }
