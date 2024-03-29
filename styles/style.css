@@ -75,7 +75,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    z-index: -1;
+    z-index: 0;
 }
 
 .overlay {
@@ -83,7 +83,7 @@
     position: absolute;
     background-color: #000;
     opacity: 0.6;
-    z-index: 0;
+    z-index: 1;
 }
 
 .cover_title {
@@ -92,7 +92,7 @@
     text-transform: uppercase;
     padding: 165px 50px 136px 50px;
     color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .aligned-text_left {
@@ -131,7 +131,7 @@
     text-transform: uppercase;
     padding: 0 50px 50px 78px;
     color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .cover_description-text {
@@ -177,7 +177,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 .card-link {
@@ -215,7 +215,7 @@
     text-decoration: underline;
     text-underline-offset: 4px;
     line-height: 1.2em;
-    z-index: 1;
+    z-index: 2;
 }
 
 .card_text {
@@ -223,7 +223,7 @@
     font-size: 20px;
     line-height: 1.2em;
     font-weight: 400;
-    z-index: 1;
+    z-index: 2;
 }
 
 .lots_look-more-link {
@@ -273,6 +273,8 @@
 .about_text_paragraph {
     padding-bottom: 27px;
 }
+
+.about_text > :last-child {padding-bottom: 0;}
 
 .footer {
     display: grid;
