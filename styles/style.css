@@ -172,7 +172,7 @@
 
 .lots__card-list-item {
     list-style-type: none;
-    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
     position: relative;
     z-index: 0;
 }
@@ -274,7 +274,7 @@
     padding-bottom: 27px;
 }
 
-.about__text > :last-child {
+.about__text> :last-child {
     padding-bottom: 0;
 }
 
