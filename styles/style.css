@@ -274,7 +274,9 @@
     padding-bottom: 27px;
 }
 
-.about_text > :last-child {padding-bottom: 0;}
+.about_text > :last-child {
+    padding-bottom: 0;
+}
 
 .footer {
     display: grid;
